@@ -1,0 +1,13 @@
+php artisan infyom:scaffold 	Operador	 --fromTable   --tableName=	operador	 --primary=idoperador
+php artisan infyom:scaffold 	Pddetalle	 --fromTable   --tableName=	pddetalle	 --primary=idpddetalle
+php artisan infyom:scaffold 	Pedido	 --fromTable   --tableName=	pedido	 --primary=idpedido
+php artisan infyom:scaffold 	Producto_tipo	 --fromTable   --tableName=	producto_tipo	 --primary=idprodtipo
+php artisan infyom:scaffold 	Producto	 --fromTable   --tableName=	producto	 --primary=idproducto
+php artisan infyom:scaffold 	Tipo_doc	 --fromTable   --tableName=	tipo_doc	 --primary=idtp_doc
+php artisan infyom:scaffold 	Usercli	 --fromTable   --tableName=	usercli	 --primary=idusercli
+
+
+INSERT INTO `bd_osiptel`.`users` (`id`, `name`, `email`,  `password`, `created_at`, `updated_at`) VALUES ('2', 'juan', 'juan@gmail.com',  '$2y$10$Pah.B3rwuBZpGINC7sZ.ROPV5jpuMpv4LUZCGgfq/vW46udChZTQe',  '2021-12-18', '2021-12-18');
+INSERT INTO `bd_osiptel`.`users` (`id`, `name`, `email`,  `password`, `created_at`, `updated_at`) VALUES ('3', 'caceres', 'caceres@gmail.com',  '$2y$10$Pah.B3rwuBZpGINC7sZ.ROPV5jpuMpv4LUZCGgfq/vW46udChZTQe',  '2021-12-19', '2021-12-19');
+INSERT INTO `bd_osiptel`.`users` (`id`, `name`, `email`,  `password`, `created_at`, `updated_at`) VALUES ('4', 'pedro', 'pedro@gmail.com',  '$2y$10$Pah.B3rwuBZpGINC7sZ.ROPV5jpuMpv4LUZCGgfq/vW46udChZTQe',  '2021-12-20', '2021-12-20');
+INSERT INTO `bd_osiptel`.`users` (`id`, `name`, `email`,  `password`, `created_at`, `updated_at`) VALUES ('5', 'susana', 'susana@gmail.com',  '$2y$10$Pah.B3rwuBZpGINC7sZ.ROPV5jpuMpv4LUZCGgfq/vW46udChZTQe',  '2021-12-21', '2021-12-21');

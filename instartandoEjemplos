@@ -1,0 +1,43 @@
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('juan', '947457884', 'ejemplo1@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('pedro', '947457741', 'ejemplo2@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('maria', '947457742', 'ejemplo3@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('julia', '947457743', 'ejemplo4@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('susana', '947457741', 'ejemplo5@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('carmen', '947457745', 'ejemplo6@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('talia', '947457746', 'ejemplo7@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('susana', '947457747', 'ejemplo8@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('camila', '947457748', 'ejemplo9@gmail.com', 'hahahahah');
+INSERT INTO `bd_osiptel`.`usercli` (`name`, `celular`, `email`, `password`) VALUES ('pablo', '947457731', 'ejemplo10@gmail.com',  'hahahahah');
+
+
+
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('1', 'error en la facturacion servicio: 1202152', '1', '1', 'me cobran por demas y realice el balance de cada mes y  no concuerda con lo contratado', '1', '2021-12-01', '0', '1', 'juan', '0', '0');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('2', 'error en el servicio de telefonia servicio: 1231152', '2', '2', 'no funciona mi numero y tengo problemas para llamar y recibir llamadas', '2', '2021-12-02', '0', '1', 'caceres', '1', '1');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('3', 'error en el servicio de internet numero: 987458745', '1', '1', 'el internet contradado es de 40 mb y solo me brindan 20 mb', '3', '2021-12-03', '0', '1', 'pedro', '2', '2');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('4', 'error en el servicio de internet numero: 9874555745', '2', '1', 'el internet contradado es de 60 mb y solo me brindan 20 mb', '4', '2021-12-04', '0', '1', 'susana', '3', '3');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('5', 'error en el servicio de llamadas numero: 987458745', '2', '3', 'el internet contradado es de 80 mb y solo me brindan 40 mb', '5', '2021-12-05', '0', '1', 'juan', '4', '4');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('6', 'error en el servicio de internet servicio: 1202052', '3', '1', 'el internet contradado es de 40 mb y solo me brindan 20 mb', '6', '2021-12-06', '0', '1', 'caceres', '5', '5');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('7', 'error en el servicio de internet servicio: 1244152', '3', '1', 'el internet contradado es de 10 gb  y solo me brindan 4 gb', '7', '2021-12-07', '0', '1', 'pedro', '6', '6');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('8', 'error en el servicio de internet servicio: 1277752', '1', '1', 'el internet contradado es de 40 mb y solo me brindan 20 mb', '8', '2021-12-08', '0', '1', 'susana', '7', '7');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('9', 'error en el servicio de internet servicio: 12784452', '1', '1', 'el internet contradado es de 40 mb y solo me brindan 20 mb', '9', '2021-12-09', '0', '1', 'juan', '8', '8');
+INSERT INTO `bd_osiptel`.`pedido` (`idpedido`, `des_pedido`, `idoperador`, `idproducto`, `obs_gn`, `idusercli`, `fec_reg`, `solucion`, `estado`, `supervisor`, `altitud`, `latitud`) VALUES ('10', 'error en el servicio de internet servicio: 1245452', '4', '1', 'el internet contradado es de 20 gb  y solo me brindan 10 gb', '10', '2021-12-10', '0', '1', 'caceres', '9', '9');
+
+
+
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('1', '1', 'prueba del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('2', '1', 'Prueba 2 del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('3', '2', 'prueba del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('4', '2', 'Prueba 2 del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('5', '2', 'Test del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('6', '3', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('7', '3', 'Prueba 2 del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('8', '4', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('9', '4', 'Prueba 2 del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('10', '5', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('11', '6', 'Prueba 2 del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('12', '7', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('13', '7', 'Prueba 2 del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('14', '8', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('15', '8', 'Prueba 2 del mal servicio', 'serv010.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('16', '9', 'prueba del mal servicio', 'serv020.JPG');
+INSERT INTO `bd_osiptel`.`pddetalle` (`idpddetalle`, `idpedido`, `descripcion`, `archivo`) VALUES ('17', '10', 'prueba del mal servicio', 'serv010.JPG');
